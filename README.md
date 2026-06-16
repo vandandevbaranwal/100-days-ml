@@ -1,17 +1,55 @@
-# 100 Days of Machine Learning
+# 🤖 100 Days of Machine Learning
 
-My journey through CampusX's 100 Days of Machine Learning playlist.
+![Progress](https://img.shields.io/badge/Progress-12%2F100-orange?style=for-the-badge)
+![Status](https://img.shields.io/badge/Status-In%20Progress-yellow?style=for-the-badge)
+![Course](https://img.shields.io/badge/Course-CampusX-blue?style=for-the-badge)
 
-## Progress
-- [x] Day 1-11: ML Fundamentals & Concepts
-- [ ] Day 12: Environment Setup (Anaconda/Jupyter)
-- [ ] Day 13: End to End Toy Project
-- [ ] Day 15: Working with CSV files
-- [ ] Day 16: Working with JSON/SQL
-- [ ] Day 17: Fetching Data from API
+My journey through CampusX's **100 Days of Machine Learning** playlist — documenting every concept, every line of code, every breakthrough (and bug 🐛).
 
-## Tech Stack
-Python, Jupyter Notebook, Pandas, NumPy, Scikit-learn
+---
 
-## Course
-[CampusX 100 Days of ML](https://youtube.com/playlist?list=PLKnIA16_Rmvbr7zKYQuBfsVkjoLcJgxHH)
+## 🛠️ Tech Stack
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
+![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
+![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
+
+---
+
+## 📅 Progress Tracker
+
+| Day | Topic | Status |
+|-----|-------|--------|
+| 1–11 | ML Fundamentals & Concepts | ✅ Done |
+| 12 | Environment Setup (Anaconda/Jupyter) | ✅ Done |
+| 13 | End to End Toy Project | 🔄 In Progress |
+| 15 | Working with CSV files | ⬜ Pending |
+| 16 | Working with JSON/SQL | ⬜ Pending |
+| 17 | Fetching Data from API | ⬜ Pending |
+
+---
+
+## 📂 Repo Structure
+
+- `day13-toy-project/`
+- `day15-csv/`
+- `day16-json-sql/`
+- `day17-api/`
+
+---
+
+## 🎯 Goal
+
+Build a strong ML foundation → contribute to open source (scikit-learn / NumFOCUS) → target GSoC 2027.
+
+---
+
+## 📺 Course
+
+[CampusX — 100 Days of Machine Learning](https://youtube.com/playlist?list=PLKnIA16_Rmvbr7zKYQuBfsVkjoLcJgxHH)
+
+---
+
+⭐ *Following along? Star this repo to track my journey!*
