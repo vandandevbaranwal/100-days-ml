@@ -7,17 +7,23 @@ on:
 jobs:
   update-badge:
     runs-on: ubuntu-latest
-    
     permissions:
       contents: write 
     steps:
       - name: Checkout repo
         uses: actions/checkout@v4
 
-      - name: Count day folders
+      - name: Find highest day number
         id: count
         run: |
-          DAYS=$(find . -maxdepth 1 -type d -name "day*" | wc -l)
+          # Finds folders starting with 'day', extracts the number right after it, sorts them, and grabs the highest
+          DAYS=$(ls -d day* 2>/dev/null | grep -oP '^day\K\d+' | sort -nr | head -n 1)
+          
+          # Fallback: If it somehow finds nothing, default to 13
+          if [ -z "$DAYS" ]; then
+            DAYS=13
+          fi
+          
           echo "days=$DAYS" >> $GITHUB_OUTPUT
 
       - name: Update README badge
@@ -28,5 +34,5 @@ jobs:
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git diff --quiet README.md || (git add README.md && git commit -m "chore: auto-update progress badge")
+          git diff --quiet README.md || (git add README.md && git commit -m "chore: auto-update progress badge to day ${{ steps.count.outputs.days }}")
           git push
