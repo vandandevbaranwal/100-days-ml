@@ -1,0 +1,29 @@
+name: Update Progress Badge
+
+on:
+  push:
+    branches: [main]
+
+jobs:
+  update-badge:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Count day folders
+        id: count
+        run: |
+          DAYS=$(find . -maxdepth 1 -type d -name "day*" | wc -l)
+          echo "days=$DAYS" >> $GITHUB_OUTPUT
+
+      - name: Update README badge
+        run: |
+          sed -i "s|Progress-[0-9]*%2F100|Progress-${{ steps.count.outputs.days }}%2F100|" README.md
+
+      - name: Commit changes
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git diff --quiet README.md || (git add README.md && git commit -m "chore: auto-update progress badge")
+          git push

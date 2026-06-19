@@ -1,6 +1,6 @@
 # 🤖 100 Days of Machine Learning
 
-![Progress](https://img.shields.io/badge/Progress-12%2F100-orange?style=for-the-badge)
+![Progress](https://img.shields.io/badge/Progress-13%2F100-orange?style=for-the-badge)
 ![Status](https://img.shields.io/badge/Status-In%20Progress-yellow?style=for-the-badge)
 ![Course](https://img.shields.io/badge/Course-CampusX-blue?style=for-the-badge)
 
@@ -18,25 +18,16 @@ My journey through CampusX's **100 Days of Machine Learning** playlist — docum
 
 ---
 
-## 📅 Progress Tracker
-
-| Day | Topic | Status |
-|-----|-------|--------|
-| 1–11 | ML Fundamentals & Concepts | ✅ Done |
-| 12 | Environment Setup (Anaconda/Jupyter) | ✅ Done |
-| 13 | End to End Toy Project | 🔄 In Progress |
-| 15 | Working with CSV files | ⬜ Pending |
-| 16 | Working with JSON/SQL | ⬜ Pending |
-| 17 | Fetching Data from API | ⬜ Pending |
-
----
-
 ## 📂 Repo Structure
+
+Each folder represents one coding day from the course:
 
 - `day13-toy-project/`
 - `day15-csv/`
 - `day16-json-sql/`
 - `day17-api/`
+
+*(Progress badge above updates automatically on every push)*
 
 ---
 
