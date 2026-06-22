@@ -4,7 +4,7 @@
 ![Status](https://img.shields.io/badge/Status-In%20Progress-yellow?style=for-the-badge)
 ![Course](https://img.shields.io/badge/Course-CampusX-blue?style=for-the-badge)
 
-My journey through CampusX's **100 Days of Machine Learning** playlist — documenting every concept, every line of code, every breakthrough (and bug 🐛).
+My journey through CampusX's **100 Days of Machine Learning** playlist documenting every concept, every line of code, every breakthrough (and bug 🐛).
 
 ---
 
