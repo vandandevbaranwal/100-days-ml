@@ -1,6 +1,6 @@
 # 🤖 100 Days of Machine Learning
 
-![Progress](https://img.shields.io/badge/Progress-18%2F100-orange?style=for-the-badge)
+![Progress](https://img.shields.io/badge/Progress-19%2F100-orange?style=for-the-badge)
 ![Status](https://img.shields.io/badge/Status-In%20Progress-yellow?style=for-the-badge)
 ![Course](https://img.shields.io/badge/Course-CampusX-blue?style=for-the-badge)
 
